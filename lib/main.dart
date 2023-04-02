@@ -14,7 +14,7 @@ class BusinessCardApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 153, 97, 0),
+        backgroundColor: const Color.fromARGB(255, 153, 97, 0),
         // ignore: prefer_const_literals_to_create_immutables
         body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           const CircleAvatar(
