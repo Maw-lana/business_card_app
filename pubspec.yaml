@@ -62,6 +62,7 @@ flutter:
   assets:
   #   - images/a_dot_burr.jpeg
     - Images/1676290303909.jpg
+    - Images/Picsart_23-01-24_14-06-45-410.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -78,6 +79,7 @@ flutter:
     - family: Pacifico
       fonts:
         - asset: fonts/Pacifico-Regular.ttf
+        
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
