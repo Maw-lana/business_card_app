@@ -7,14 +7,14 @@ class BusinessCardApp extends StatelessWidget {
   const BusinessCardApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
 
       home:  Scaffold(
-        backgroundColor: const Color.fromARGB(255, 153, 97, 0),
+        backgroundColor: Color.fromARGB(255, 153, 97, 0),
         body:  Column(
           mainAxisAlignment: MainAxisAlignment.center,
-           children: const [
+           children: [
           CircleAvatar(
             radius: 122,
             backgroundColor: Colors.white,
@@ -82,7 +82,7 @@ class BusinessCardApp extends StatelessWidget {
                 'ahmed.fathelpap682000@gmail.com',
                 style: TextStyle(
                   color: Color.fromARGB(255, 46, 46, 49),
-                  fontSize: 17,
+                  fontSize: 21,
                   fontWeight: FontWeight.bold,
                 ),
               ),
